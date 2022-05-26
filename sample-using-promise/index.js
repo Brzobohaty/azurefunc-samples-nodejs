@@ -1,4 +1,5 @@
 require('dotenv').config()
+//TODO
 const msRestAzure  = require("ms-rest-azure");
 const computeManagementClient = require('azure-arm-compute');
 const subscriptionId = process.env.AZURE_SUBSCRIPTION_ID;
